@@ -251,9 +251,6 @@ evaluate(n_results=5, distance_threshold=1.4)
 # ── Analysis ─────────────────────────────────────────────────────────────────
 print("\n=== ANALYSIS ===")
 
-
-avg_precision, avg_recall = evaluate(n_results=5)
-
 print(f"\n{'=' * 60}")
 print(f"AVERAGE Precision: {avg_precision:.1%}")
 print(f"AVERAGE Recall:    {avg_recall:.1%}")
