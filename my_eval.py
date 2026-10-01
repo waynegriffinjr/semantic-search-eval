@@ -234,8 +234,4 @@ Increasing `n_results` from 3 to 5 reduced precision from 50.0% to 30.0% while l
 The distance threshold of `1.4` produced the highest precision, 94.4%, but reduced recall to 75.0%. The threshold removed many irrelevant results, which improved precision, but it also removed some relevant documents. Therefore, the threshold setting was highly selective and produced cleaner results at the cost of missing some information.      
    
 """)
-#       Answer:
-#         - Which queries consistently performed well? Why?
-#         - Which queries failed? What caused the low score?
-#         - What would you change to improve the weakest queries?
-#         - How did increasing n_results affect precision vs recall?
+
